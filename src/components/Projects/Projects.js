@@ -2,8 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import clone from "../../Assets/Projects/clone1.PNG";
-import inventory from "../../Assets/Projects/inventory.png";
+import car from "../../Assets/Projects/car rental.png"
+import inventory from "../../Assets/Projects/inventory.png"
+import sona from "../../Assets/Projects/sona.png"
 
 function Projects() {
   return (
@@ -22,51 +23,39 @@ function Projects() {
             <ProjectCard
               imgPath={inventory}
               isBlog={false}
-              title="Mini Inventory Management System"
-              description="The Dan Inventory Management System is a robust solution designed to enhance and simplify inventory control processes for businesses of all sizes. It offers a user-friendly interface and powerful features to facilitate efficient inventory management.
-
-              Features
-              Product Management:
-              
-              Easily add, edit, and delete products.
-              Categorize products for improved organization.
-              Track product details such as quantity and cost.
-              Inventory Tracking:
-              
-              Real-time updates on stock levels.
-              Set low-stock alerts for timely replenishment.
-              Reporting and Analytics:
-              
+              title="inventory management"
+              description="The MinT Inventory Management System is a robust solution designed to enhance and simplify 
+              inventory control processes for ministry of innovation and technology. It offers a user-friendly interface and powerful features to 
+              facilitate efficient inventory management 
               Generate customizable reports for actionable insights."
-              ghLink="https://github.com/Filmon12345/Mini-Inventory-Managment-Syatem"
+              ghLink="https://github.com/mulukenhailu/MintProject1.0/tree/demis_branch"
+             
+            />
+          </Col>
+          
+          <Col md={10} className="project-card">
+            <ProjectCard
+              imgPath={car}
+              isBlog={false}
+              title="Tabor Car Rental"
+              description="At Tabor Car Rental Services, we believe that renting a car
+               should be an effortless and enjoyable experience. That's why we offer a
+                wide selection of high-quality vehicles to choose from, along with
+                 competitive pricing and exceptional customer service."
+              ghLink="https://github.com/demisu-s/Tabor_Car_Rental_service/tree/master"
              
             />
           </Col>
           <Col md={10} className="project-card">
             <ProjectCard
-              imgPath={clone}
+              imgPath={sona}
               isBlog={false}
-              title="Youtube Clone"
-              description="Feature: 
-              Watch video
-              Increase Views
-              Like and dislike video
-              Download video
-              Comment & reply for video
-              Update video details
-              Delete video
-              Subscribe to a channel
-              View liked videos
-              Trending
-              Subscriptions
-              History
-              Watch history
-              Search history
-              Settings
-              Modify channel name and email
-              Change password
-              Upload channel avatar"
-              ghLink="https://github.com/Filmon12345/youtube-clone"
+              title="Tabor Car Rental"
+              description="At Tabor Car Rental Services, we believe that renting a car
+               should be an effortless and enjoyable experience. That's why we offer a
+                wide selection of high-quality vehicles to choose from, along with
+                 competitive pricing and exceptional customer service."
+              ghLink="https://github.com/demisu-s/restaurant-menu/tree/master"
              
             />
           </Col>

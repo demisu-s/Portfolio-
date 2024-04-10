@@ -4,8 +4,7 @@ import myImg from "../../Assets/damisusefu.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
- 
+  AiOutlineInstagram, 
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -33,7 +32,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Graphics Design.
+                  UI Design.
                 </b>
               </i>
               <br />
@@ -64,7 +63,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Filmon12345"
+                  href="https://github.com/demisu-s"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,17 +73,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/FilmonZinabu"
+                  href="https://www.instagram.com/damisusefu/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineInstagram />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/philimona-zinabu-b2211429a"
+                  href="https://www.linkedin.com/in/damisu-sefu-5545b223a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,7 +94,7 @@ function Home2() {
               
             </ul>
           </Col>
-        </Row>
+        </Row> 
       </Container>
     </Container>
   );

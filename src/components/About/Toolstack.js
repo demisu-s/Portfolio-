@@ -5,7 +5,9 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiVercel,
-  SiCanva,
+  SiRender,
+  
+  
 
 } from "react-icons/si";
 
@@ -25,7 +27,7 @@ function Toolstack() {
       <FaFigma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <SiCanva />
+      <SiRender />
       </Col>
     </Row>
   );

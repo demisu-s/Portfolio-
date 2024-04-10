@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import { Container, Row, Button } from "react-bootstrap";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Filmon_zinabu_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai"; 
+import pdf from "../../Assets/../Assets/full stack cv.pdf"
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(1200); 
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    setWidth(window.innerWidth);   
   }, []);
 
   return (
@@ -22,7 +22,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={'https://drive.google.com/file/d/19SaahMpmouUh1PC8gmCVtv-5hCpxVF4p/view?usp=sharing'}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -40,7 +40,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary" 
-            href={pdf}
+            href={'https://drive.google.com/file/d/19SaahMpmouUh1PC8gmCVtv-5hCpxVF4p/view?usp=sharing'}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -48,7 +48,7 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-      </Container>
+      </Container>l,kloikijju,ljolh,knl;uj;rfirtwssputewuieeieujpafwp-
     </div>
   );
 }
