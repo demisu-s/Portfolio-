@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Damisu </span>
             from <span className="purple"> Addis Ababa, Ethiopia.</span>
             <br />
-            I am currently Studing Computer Engineering at Addis Ababa University .
+            I recently graduated with a degree in Computer Engineering from Addis Ababa University.
             <br />
             I have completed My Internship Time 
             in <span className="purple">FrontEnd and Backend</span> WEB Development at 
@@ -28,7 +28,7 @@ function AboutCard() {
               <ImPointRight /> participating in Voluntary Activities
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Football
+              <ImPointRight /> Playing And Watching Football 
             </li>
           </ul>
 
