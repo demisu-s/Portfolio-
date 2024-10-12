@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import car from "../../Assets/Projects/car rental.png"
 import inventory from "../../Assets/Projects/inventory.png"
-import sona from "../../Assets/Projects/sona.png"
+import sona from "../../Assets/Projects/home.png"
 
 function Projects() {
   return (
@@ -50,12 +50,11 @@ function Projects() {
             <ProjectCard
               imgPath={sona}
               isBlog={false}
-              title="Tabor Car Rental"
-              description="At Tabor Car Rental Services, we believe that renting a car
-               should be an effortless and enjoyable experience. That's why we offer a
-                wide selection of high-quality vehicles to choose from, along with
-                 competitive pricing and exceptional customer service."
-              ghLink="https://github.com/demisu-s/restaurant-menu/tree/master"
+              title="Live Dream Home"
+              description="Live Dream is a platform that helps you find homes for both rent and purchase, 
+              nd connects you with people directly, without the intervention of agents, 
+              which minimizes the costs you need to pay."
+              ghLink="https://github.com/demisu-s/House_Rental_Yenetta"
              
             />
           </Col>
